@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    height: 100%;
+}
+body {
+    background: linear-gradient(
+    12deg,
+    rgba(78, 73, 73, 0.8),
+    rgba(255,65,0,.3) 20%,
+    rgba(105, 167, 48, 0.6) 80%,
+    rgba(219, 25, 25, 0.9)
+    );   
+}
+h1 {
+    text-align: center;
+    font-size: 50px;
+}
+h1, h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: underline;
+}
+h2 {
+    font-size: 25px;
+}
+.container {
+    height: 60%;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+#ul-1 {
+    height: 100%;
+    margin-bottom: 58px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    list-style-type: none;
+    text-align: center;
+}
+li {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    color: white;
+    background-color: forestgreen;
+    padding: 10px 20px;
+}
+a:hover {
+    color: red;
+}
+
+/* bolognese css */
+img {
+    display: block;
+    margin: auto auto;
+    margin-top: 5%;
+    border: 9px dashed snow;
+    height: 35%;
+    width: auto;
+}
+.other-container {
+    bottom: 0;
+    position: absolute;
+    padding: 20px 40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.other-container h1 {
+    text-align: center;
+}
